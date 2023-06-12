@@ -1,0 +1,18 @@
+.informationBox {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(240, 187, 103, 0.5);
+	padding: 1rem;
+}
+
+.informationBox__header {
+	align-self: center;
+	padding-top: 0rem;
+	margin-top: 0;
+}
+
+.informationBox__separator {
+	border-bottom: 0.1rem solid;
+	width: 30%;
+	align-self: center;
+}

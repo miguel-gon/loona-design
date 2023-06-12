@@ -1,2 +1,7 @@
 /* Base styles */
 @import './index.css';
+
+/* Components */
+@import './Navbar/navbar.css';
+@import './TextBox/textBox.css';
+@import './InformationBox/informationBox.css';
