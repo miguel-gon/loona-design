@@ -1,6 +1,15 @@
 .navbar {
 	display: flex;
+	justify-content: center;
 	flex-direction: row;
 	gap: 1rem;
 	background-color: rgb(189, 214, 149);
+	height: 3rem;
+	padding-top: 1rem;
+}
+
+.navbar__container {
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;
+	padding: 0.5rem 0;
 }

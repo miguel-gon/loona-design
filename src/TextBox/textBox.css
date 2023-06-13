@@ -1,5 +1,5 @@
 .textBox {
-	background-color: rgb(189, 214, 149);
+	background-color: var(--green);
 	width: fit-content;
 	padding: 1rem;
 }

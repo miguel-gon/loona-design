@@ -3,6 +3,7 @@ import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import TextBox from './TextBox/TextBox';
 import InformationBox from './InformationBox/InformationBox';
+import Dropdown from './Dropdown/Dropdown';
 
 function App() {
 	return (
@@ -12,8 +13,8 @@ function App() {
 				<Navbar />
 				<TextBox string='Testing TextBox' />
 				<InformationBox
-					header={'Testing Header'}
-					content={'Testing Content'}
+					header='Testing Header'
+					content='Testing Content'
 				/>
 			</div>
 		</Router>

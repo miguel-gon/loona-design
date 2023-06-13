@@ -1,0 +1,15 @@
+.dropdown {
+	width: fit-content;
+}
+
+.dropdown:hover * {
+	opacity: 1;
+}
+
+.dropdown__optionsArea {
+	opacity: 0;
+	width: fit-content;
+	background-color: var(--green);
+	padding: 0 1rem;
+	border: 0.1rem solid;
+}
