@@ -8,8 +8,16 @@
 	padding-top: 1rem;
 }
 
+.navbar * {
+	color: black;
+	text-decoration: none;
+}
 .navbar__container {
 	border-top: 0.1rem solid;
 	border-bottom: 0.1rem solid;
 	padding: 0.5rem 0;
+}
+
+.navbar__option {
+	cursor: pointer;
 }

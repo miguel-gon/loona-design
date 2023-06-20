@@ -7,9 +7,17 @@
 }
 
 .dropdown__optionsArea {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	opacity: 0;
 	width: fit-content;
 	background-color: var(--green);
 	padding: 0 1rem;
 	border: 0.1rem solid;
+}
+
+.dropdown__header,
+.dropdown__option {
+	cursor: pointer;
 }

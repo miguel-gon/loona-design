@@ -2,7 +2,19 @@
 @import './index.css';
 
 /* Components */
-@import './Navbar/navbar.css';
-@import './TextBox/textBox.css';
-@import './InformationBox/informationBox.css';
-@import './Dropdown/dropdown.css';
+@import './Components/Dropdown/dropdown.css';
+@import './Components/InformationBox/informationBox.css';
+@import './Components/Navbar/navbar.css';
+@import './Components/TextBox/textBox.css';
+
+/* Views */
+@import './Views/ArtCreations/artCreations.css';
+@import './Views/Comissions/comissions.css';
+@import './Views/Contact/contact.css';
+@import './Views/Creations/creations.css';
+@import './Views/CrochetCreations/crochetCreations.css';
+@import './Views/FreePatterns/freePatterns.css';
+@import './Views/Home/home.css';
+@import './Views/JewellryCreations/jewerllyCreations.css';
+@import './Views/Patterns/patterns.css';
+@import './Views/PremiumPatterns/premiumPatterns.css';
