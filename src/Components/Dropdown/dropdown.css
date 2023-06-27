@@ -1,9 +1,15 @@
 .dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: fit-content;
+	z-index: 1;
 }
 
 .dropdown:hover * {
 	opacity: 1;
+	visibility: visible;
+	pointer-events: visible;
 }
 
 .dropdown__optionsArea {
@@ -15,9 +21,10 @@
 	background-color: var(--green);
 	padding: 0 1rem;
 	border: 0.1rem solid;
+	pointer-events: none;
+	visibility: hidden;
 }
 
-.dropdown__header,
 .dropdown__option {
 	cursor: pointer;
 }

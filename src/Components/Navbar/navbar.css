@@ -1,7 +1,6 @@
 .navbar {
 	display: flex;
-	justify-content: center;
-	flex-direction: row;
+	justify-content: space-evenly;
 	gap: 1rem;
 	background-color: rgb(189, 214, 149);
 	height: 3rem;
@@ -20,4 +19,5 @@
 
 .navbar__option {
 	cursor: pointer;
+	height: fit-content;
 }

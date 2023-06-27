@@ -21,6 +21,7 @@ body {
 .App {
 	background-color: var(--background_color);
 	width: 50vw;
+	min-width: 30rem;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;

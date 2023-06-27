@@ -15,6 +15,7 @@ function App() {
 	return (
 		<Router>
 			<div className='App'>
+				<img src='../src/Assets/loona-logo.png' />
 				<Navbar />
 				<div className='mainContent'>
 					<Routes>
