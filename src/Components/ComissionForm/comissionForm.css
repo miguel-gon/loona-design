@@ -1,0 +1,42 @@
+.comissionForm {
+	background-color: var(--green);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	height: fit-content;
+	width: fit-content;
+	min-width: 100%;
+}
+
+.comissionForm__label {
+}
+
+.comissionForm__input {
+	margin-bottom: 0.5rem;
+	height: 2rem;
+}
+
+.comissionForm__textArea {
+	height: 10rem;
+}
+
+.comissionForm__input,
+.comissionForm__textArea {
+	padding: 0.25rem;
+	border: 0.15rem solid white;
+}
+
+.comissionForm__submit {
+	width: fit-content;
+	padding: 0.6rem;
+	border-radius: 0.25rem;
+	border: 0.1rem solid var(--background_color-translucent);
+	background-color: black;
+	color: var(--background_color-translucent);
+}
+
+.comissionForm__submit:hover {
+	color: black;
+	background-color: var(--background_color-translucent);
+}

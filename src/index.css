@@ -16,6 +16,7 @@ body {
 	background-color: var(--background_color-translucent);
 	display: flex;
 	justify-content: center;
+	transition: ease-in-out 0.5s;
 }
 
 .App {

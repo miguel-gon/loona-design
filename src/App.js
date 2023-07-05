@@ -10,6 +10,7 @@ import Patterns from './Views/Patterns/Patterns';
 import FreePatterns from './Views/FreePatterns/FreePatterns';
 import Contact from './Views/Contact/Contact';
 import PremiumPatterns from './Views/PremiumPatterns/PremiumPatterns';
+import FormFilled from './Views/FormFilled/FormFilled';
 
 function App() {
 	return (
@@ -58,6 +59,10 @@ function App() {
 						<Route
 							path='/contact'
 							element={<Contact />}
+						/>
+						<Route
+							path='/formfilled'
+							element={<FormFilled />}
 						/>
 					</Routes>
 				</div>

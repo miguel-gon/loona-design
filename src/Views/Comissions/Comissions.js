@@ -1,5 +1,12 @@
+import ComissionForm from '../../Components/ComissionForm/ComissionForm';
+
 const Comissions = () => {
-	return <h2>Comissions</h2>;
+	return (
+		<div className='comissions'>
+			<h2>Comissions</h2>
+			<ComissionForm />
+		</div>
+	);
 };
 
 export default Comissions;
