@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const CrochetCreations = () => {
-	return <h2>Crochet Creations</h2>;
+	return (
+		<div className='crochetCreations'>
+			<HeaderBox header={'Crochet Creations'} />
+		</div>
+	);
 };
 
 export default CrochetCreations;

@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const Patterns = () => {
-	return <h2>Crochet Patterns</h2>;
+	return (
+		<div className='patterns'>
+			<HeaderBox header={'Patterns'} />
+		</div>
+	);
 };
 
 export default Patterns;

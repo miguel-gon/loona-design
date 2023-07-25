@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Creations from './Views/Creations/Creations';
 import CrochetCreations from './Views/CrochetCreations/CrochetCreations';
 import ArtCreations from './Views/ArtCreations/ArtCreations';
-import JewellryCreations from './Views/JewellryCreations/JewellryCreations';
+import JewelryCreations from './Views/JewelryCreations/JewelryCreations';
 import Comissions from './Views/Comissions/Comissions';
 import Patterns from './Views/Patterns/Patterns';
 import FreePatterns from './Views/FreePatterns/FreePatterns';
@@ -37,8 +37,8 @@ function App() {
 							element={<ArtCreations />}
 						/>
 						<Route
-							path='/creations/jewellry'
-							element={<JewellryCreations />}
+							path='/creations/jewelry'
+							element={<JewelryCreations />}
 						/>
 						<Route
 							path='/comissions'

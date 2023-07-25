@@ -31,8 +31,8 @@ const Navbar = () => {
 						</Link>,
 						<Link
 							className='navbar__option'
-							to='/creations/jewellry'>
-							Jewellry
+							to='/creations/jewelry'>
+							Jewelry
 						</Link>,
 					]}
 				/>

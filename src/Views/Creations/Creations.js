@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const Creations = () => {
-	return <h2>Creations</h2>;
+	return (
+		<div className='creations'>
+			<HeaderBox header={'Creations'} />
+		</div>
+	);
 };
 
 export default Creations;

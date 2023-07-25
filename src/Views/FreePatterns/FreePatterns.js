@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const FreePatterns = () => {
-	return <h2>Free Patterns</h2>;
+	return (
+		<div className='freePatterns'>
+			<HeaderBox header={'Free Patterns'} />
+		</div>
+	);
 };
 
 export default FreePatterns;

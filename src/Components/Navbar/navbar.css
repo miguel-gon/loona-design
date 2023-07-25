@@ -12,6 +12,8 @@
 	text-decoration: none;
 }
 .navbar__container {
+	position: sticky;
+	top: 1rem;
 	border-top: 0.1rem solid;
 	border-bottom: 0.1rem solid;
 	padding: 0.5rem 0;

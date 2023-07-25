@@ -7,6 +7,7 @@
 @import './Components/Navbar/navbar.css';
 @import './Components/TextBox/textBox.css';
 @import './Components/ComissionForm/comissionForm.css';
+@import './Components/HeaderBox/headerBox.css';
 
 /* Views */
 @import './Views/ArtCreations/artCreations.css';
@@ -16,6 +17,6 @@
 @import './Views/CrochetCreations/crochetCreations.css';
 @import './Views/FreePatterns/freePatterns.css';
 @import './Views/Home/home.css';
-@import './Views/JewellryCreations/jewerllyCreations.css';
+@import './Views/JewelryCreations/jewerlyCreations.css';
 @import './Views/Patterns/patterns.css';
 @import './Views/PremiumPatterns/premiumPatterns.css';

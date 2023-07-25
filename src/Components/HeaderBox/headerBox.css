@@ -1,0 +1,9 @@
+.headerBox {
+	display: flex;
+	justify-content: center;
+	background-color: var(--green);
+	padding: 1.6rem;
+	margin: 1rem 0;
+}
+.headerBox__header {
+}

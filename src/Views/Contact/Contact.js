@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const Contact = () => {
-	return <h2>Contact</h2>;
+	return (
+		<div className='contact'>
+			<HeaderBox header={'Contact'} />
+		</div>
+	);
 };
 
 export default Contact;

@@ -1,5 +1,11 @@
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
+
 const PremiumPatterns = () => {
-	return <h2>Premium Patterns</h2>;
+	return (
+		<div className='premiumPatterns'>
+			<HeaderBox header={'Premium Patterns'} />
+		</div>
+	);
 };
 
 export default PremiumPatterns;

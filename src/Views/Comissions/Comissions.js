@@ -1,9 +1,10 @@
 import ComissionForm from '../../Components/ComissionForm/ComissionForm';
+import HeaderBox from '../../Components/HeaderBox/HeaderBox';
 
 const Comissions = () => {
 	return (
 		<div className='comissions'>
-			<h2>Comissions</h2>
+			<HeaderBox header={'Commissions'} />
 			<ComissionForm />
 		</div>
 	);
