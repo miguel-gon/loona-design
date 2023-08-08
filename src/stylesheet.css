@@ -6,7 +6,7 @@
 @import './Components/InformationBox/informationBox.css';
 @import './Components/Navbar/navbar.css';
 @import './Components/TextBox/textBox.css';
-@import './Components/ComissionForm/comissionForm.css';
+@import './Components/Form/form.css';
 @import './Components/HeaderBox/headerBox.css';
 
 /* Views */
@@ -20,3 +20,4 @@
 @import './Views/JewelryCreations/jewerlyCreations.css';
 @import './Views/Patterns/patterns.css';
 @import './Views/PremiumPatterns/premiumPatterns.css';
+@import './Views/Accessibility/accessibility.css';

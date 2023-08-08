@@ -30,6 +30,10 @@ body {
 	gap: 1rem;
 }
 
+.mainContent {
+	padding: 0 2rem;
+}
+
 :root {
 	--background_color: rgb(231, 240, 216);
 	--background_color-translucent: rgba(231, 240, 216, 0.7);

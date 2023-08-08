@@ -11,6 +11,7 @@ import FreePatterns from './Views/FreePatterns/FreePatterns';
 import Contact from './Views/Contact/Contact';
 import PremiumPatterns from './Views/PremiumPatterns/PremiumPatterns';
 import FormFilled from './Views/FormFilled/FormFilled';
+import Accessibility from './Views/Accessibility/Accessibility';
 
 function App() {
 	return (
@@ -63,6 +64,10 @@ function App() {
 						<Route
 							path='/formfilled'
 							element={<FormFilled />}
+						/>
+						<Route
+							path='/accessibility'
+							element={<Accessibility />}
 						/>
 					</Routes>
 				</div>

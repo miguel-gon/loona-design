@@ -1,55 +1,56 @@
 import { useState } from 'react';
 
-const ComissionForm = () => {
+const Form = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
 	return (
 		<form
 			action='/formfilled'
-			className='comissionForm'>
+			className='Form'>
 			<label
 				htmlFor='name'
-				className='comissionForm__label'>
-				Name (required)
+				className='Form__label'>
+				Name
 			</label>
 			<input
 				type='text'
 				required
 				name='name'
 				id='name'
-				className='comissionForm__input'
+				className='Form__input'
 				value={name}
 				onChange={(e) => setName(e.target.value)}
 			/>
 			<label
 				htmlFor='email'
-				className='comissionForm__label'>
-				Email (required)
+				className='Form__label'>
+				Email
 			</label>
 			<input
 				type='text'
 				required
 				name='email'
 				id='email'
-				className='comissionForm__input'
+				className='Form__input'
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
 			/>
 			<label
 				htmlFor='message'
-				className='comissionForm__label'>
+				className='Form__label'>
 				Message
 			</label>
 			<textarea
 				name='message'
+				required
 				id='message'
-				className='comissionForm__textArea'
+				className='Form__textArea'
 				value={message}
 				onChange={(e) => setMessage(e.target.value)}
 			/>
 			<input
-				className='comissionForm__submit'
+				className='Form__submit'
 				type='submit'
 				value='Whoosh!'
 			/>
@@ -57,4 +58,4 @@ const ComissionForm = () => {
 	);
 };
 
-export default ComissionForm;
+export default Form;
