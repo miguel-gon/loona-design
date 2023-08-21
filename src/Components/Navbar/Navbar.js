@@ -20,16 +20,19 @@ const Navbar = () => {
 					}
 					options={[
 						<Link
+							key={'creationsCrochet'}
 							className='navbar__option'
 							to='/creations/crochet'>
 							Crochet
 						</Link>,
 						<Link
+							key={'creationsArt'}
 							className='navbar__option'
 							to='/creations/art'>
 							Art
 						</Link>,
 						<Link
+							key={'creationsJewelry'}
 							className='navbar__option'
 							to='/creations/jewelry'>
 							Jewelry
@@ -51,11 +54,13 @@ const Navbar = () => {
 					}
 					options={[
 						<Link
+							key={'patternsFree'}
 							className='navbar__option'
 							to='/patterns/free-patterns'>
 							Free Patterns
 						</Link>,
 						<Link
+							key={'patternsPremium'}
 							className='navbar__option'
 							to='/patterns/premium-patterns'>
 							Premium Patterns
