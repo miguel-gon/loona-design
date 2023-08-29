@@ -1,6 +1,6 @@
-const TextBox = ({ string }) => {
+const TextBox = ({ string, className }) => {
 	return (
-		<div className='textBox'>
+		<div className={`textBox ${className}`}>
 			<p className='textBox__content'>{string}</p>
 		</div>
 	);

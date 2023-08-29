@@ -9,9 +9,9 @@
 	justify-content: center;
 	background-color: var(--green);
 	padding: 1.6rem;
-	margin: 0 2rem;
+	margin: 0 1rem;
 	width: 100%;
-	max-width: 25rem;
+	/* max-width: 25rem; */
 }
 
 .headerBox__divider {
