@@ -1,0 +1,33 @@
+.textBoxWithImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+.textBoxWithImage-top {
+	flex-direction: column;
+}
+.textBoxWithImage-right {
+	flex-direction: row-reverse;
+}
+.textBoxWithImage-bottom {
+	flex-direction: column-reverse;
+}
+.textBoxWithImage-left {
+	flex-direction: row;
+}
+.textBoxWithImage__image {
+	flex: 1;
+}
+.textBoxWithImage__headerContainer {
+	display: flex;
+	justify-content: center;
+	background-color: var(--green);
+	padding: 1.6rem;
+	margin: 0 1rem;
+	flex: 1;
+}
+.textBoxWithImage__header {
+	font-style: italic;
+}

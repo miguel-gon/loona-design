@@ -8,6 +8,7 @@
 @import './Components/TextBox/textBox.css';
 @import './Components/Form/form.css';
 @import './Components/HeaderBox/headerBox.css';
+@import './Components/TextBoxWithImage/textBoxWithImage.css';
 
 /* Views */
 @import './Views/ArtCreations/artCreations.css';
