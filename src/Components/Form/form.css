@@ -1,4 +1,4 @@
-.Form {
+.form {
 	background-color: var(--green);
 	padding: 1rem;
 	display: flex;
@@ -9,25 +9,27 @@
 	min-width: 100%;
 }
 
-.Form__label {
+.form__label {
 }
 
-.Form__input {
+.form__input {
 	margin-bottom: 0.5rem;
 	height: 2rem;
+	border-radius: 0;
 }
 
-.Form__textArea {
+.form__textArea {
 	height: 10rem;
+	border-radius: 0;
 }
 
-.Form__input,
-.Form__textArea {
+.form__input,
+.form__textArea {
 	padding: 0.25rem;
 	border: 0.15rem solid white;
 }
 
-.Form__submit {
+.form__submit {
 	width: fit-content;
 	padding: 0.6rem;
 	border-radius: 0.25rem;
@@ -36,7 +38,7 @@
 	color: var(--background_color-translucent);
 }
 
-.Form__submit:hover {
+.form__submit:hover {
 	color: black;
 	background-color: var(--background_color-translucent);
 }

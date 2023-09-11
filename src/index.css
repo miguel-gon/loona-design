@@ -39,6 +39,7 @@ body {
 	--background_color: rgb(231, 240, 216);
 	--background_color-translucent: rgba(231, 240, 216, 0.7);
 	--green: rgb(189, 214, 149);
+	--light-green: rgb(231, 240, 216);
 	--yellow: rgba(240, 187, 103, 0.5);
 	--black: rgb(34, 34, 34);
 	--rounded_border_radius: 0.3rem;

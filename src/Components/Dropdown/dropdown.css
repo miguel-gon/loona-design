@@ -18,11 +18,13 @@
 	flex-wrap: wrap;
 	opacity: 0;
 	width: fit-content;
-	background-color: var(--green);
+	background-color: var(--light-green);
 	padding: 0 1rem;
-	border: 0.1rem solid;
+	border: 0.1rem solid white;
+	border-radius: 0;
 	pointer-events: none;
 	visibility: hidden;
+	margin-top: 0.5rem;
 }
 
 .dropdown__option {

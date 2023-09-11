@@ -7,10 +7,10 @@ const Form = () => {
 	return (
 		<form
 			action='/formfilled'
-			className='Form'>
+			className='form'>
 			<label
 				htmlFor='name'
-				className='Form__label'>
+				className='form__label'>
 				Name
 			</label>
 			<input
@@ -18,13 +18,13 @@ const Form = () => {
 				required
 				name='name'
 				id='name'
-				className='Form__input'
+				className='form__input'
 				value={name}
 				onChange={(e) => setName(e.target.value)}
 			/>
 			<label
 				htmlFor='email'
-				className='Form__label'>
+				className='form__label'>
 				Email
 			</label>
 			<input
@@ -32,25 +32,25 @@ const Form = () => {
 				required
 				name='email'
 				id='email'
-				className='Form__input'
+				className='form__input'
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
 			/>
 			<label
 				htmlFor='message'
-				className='Form__label'>
+				className='form__label'>
 				Message
 			</label>
 			<textarea
 				name='message'
 				required
 				id='message'
-				className='Form__textArea'
+				className='form__textArea'
 				value={message}
 				onChange={(e) => setMessage(e.target.value)}
 			/>
 			<input
-				className='Form__submit'
+				className='form__submit'
 				type='submit'
 				value='Whoosh!'
 			/>
