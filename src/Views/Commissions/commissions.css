@@ -1,0 +1,34 @@
+.commissions {
+}
+.commissions__headingImage {
+}
+.commissions__textBox {
+	width: 100%;
+	padding-left: 2rem;
+	margin-top: 1rem;
+}
+.commissions__textBox p {
+	font-size: larger;
+	font-weight: 500;
+}
+.commissions__paragraph {
+	margin: 1rem 0;
+}
+.commissions__orderedList {
+	padding-left: 2rem;
+}
+.commissions__listElement {
+}
+
+.commissions__linkContainer {
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;
+	padding: 1rem 0rem;
+	border-radius: 0;
+}
+.commissions__linkHeading {
+}
+
+.commissions__formContainer {
+	margin-top: 1rem;
+}

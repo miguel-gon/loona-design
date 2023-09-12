@@ -41,8 +41,8 @@ const Navbar = () => {
 				/>
 				<Link
 					className='navbar__option'
-					to='/comissions'>
-					Comission
+					to='/commissions'>
+					Commissions
 				</Link>
 				<Dropdown
 					header={

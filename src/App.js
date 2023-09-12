@@ -5,7 +5,7 @@ import Creations from './Views/Creations/Creations';
 import CrochetCreations from './Views/CrochetCreations/CrochetCreations';
 import ArtCreations from './Views/ArtCreations/ArtCreations';
 import JewelryCreations from './Views/JewelryCreations/JewelryCreations';
-import Comissions from './Views/Comissions/Comissions';
+import Commissions from './Views/Commissions/Commissions';
 import Patterns from './Views/Patterns/Patterns';
 import FreePatterns from './Views/FreePatterns/FreePatterns';
 import Contact from './Views/Contact/Contact';
@@ -42,8 +42,8 @@ function App() {
 							element={<JewelryCreations />}
 						/>
 						<Route
-							path='/comissions'
-							element={<Comissions />}
+							path='/commissions'
+							element={<Commissions />}
 						/>
 						<Route
 							path='/patterns'
