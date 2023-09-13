@@ -1,0 +1,11 @@
+.linkWithImage {
+	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: var(--yellow);
+}
+.linkWithImage__image {
+}
+.linkWithImage__link {
+}

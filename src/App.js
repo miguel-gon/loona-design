@@ -12,6 +12,7 @@ import Contact from './Views/Contact/Contact';
 import PremiumPatterns from './Views/PremiumPatterns/PremiumPatterns';
 import FormFilled from './Views/FormFilled/FormFilled';
 import Accessibility from './Views/Accessibility/Accessibility';
+import CottonOrAcrylic from './Views/CottonOrAcrylic/CottonOrAcrylic';
 
 function App() {
 	return (
@@ -68,6 +69,10 @@ function App() {
 						<Route
 							path='/accessibility'
 							element={<Accessibility />}
+						/>
+						<Route
+							path='/cotton-or-acrylic'
+							element={<CottonOrAcrylic />}
 						/>
 					</Routes>
 				</div>

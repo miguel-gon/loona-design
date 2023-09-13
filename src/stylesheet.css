@@ -9,6 +9,7 @@
 @import './Components/Form/form.css';
 @import './Components/HeaderBox/headerBox.css';
 @import './Components/TextBoxWithImage/textBoxWithImage.css';
+@import './Components/LinkWithImage/linkWithImage.css';
 
 /* Views */
 @import './Views/ArtCreations/artCreations.css';
@@ -22,3 +23,4 @@
 @import './Views/Patterns/patterns.css';
 @import './Views/PremiumPatterns/premiumPatterns.css';
 @import './Views/Accessibility/accessibility.css';
+@import './Views/CottonOrAcrylic/cottonOrAcrylic.css';
