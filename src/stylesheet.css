@@ -1,5 +1,6 @@
 /* Base styles */
 @import './index.css';
+@import './app.css';
 
 /* Components */
 @import './Components/Dropdown/dropdown.css';

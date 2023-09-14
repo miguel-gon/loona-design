@@ -17,8 +17,12 @@ import CottonOrAcrylic from './Views/CottonOrAcrylic/CottonOrAcrylic';
 function App() {
 	return (
 		<Router>
-			<div className='App'>
-				<img src='../src/Assets/loona-logo.png' />
+			<div className='app'>
+				<img
+					src={require('./assets/loona-logo.png')}
+					alt='loona'
+					className='app__headerLogo'
+				/>
 				<Navbar />
 				<div className='mainContent'>
 					<Routes>
