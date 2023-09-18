@@ -6,11 +6,7 @@
  * @returns
  */
 
-const TextBoxWithImage = ({
-	text = '',
-	imgPath = '../../assets/loona-logo.png',
-	imgPosition = 'top',
-}) => {
+const TextBoxWithImage = ({ text, imgPath, imgPosition = 'top' }) => {
 	return (
 		<div className={`textBoxWithImage textBoxWithImage-${imgPosition}`}>
 			<img

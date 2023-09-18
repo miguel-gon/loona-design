@@ -1,0 +1,25 @@
+.buttonWithImage {
+	height: 10rem;
+	width: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttonWithImage__linkContainer {
+	background-color: transparent;
+	padding: 1rem;
+	border: 0.1rem solid grey;
+	transition-duration: 0.25s;
+}
+.buttonWithImage__linkContainer:hover {
+	background-color: grey;
+	border-color: white;
+}
+.buttonWithImage__linkContainer:hover * {
+	color: white;
+}
+.buttonWithImage__linkString {
+	transition-duration: 0.25s;
+	text-decoration: none;
+	color: black;
+}

@@ -11,6 +11,7 @@
 @import './Components/HeaderBox/headerBox.css';
 @import './Components/TextBoxWithImage/textBoxWithImage.css';
 @import './Components/LinkWithImage/linkWithImage.css';
+@import './Components/ButtonWithImage/buttonWithImage.css';
 
 /* Views */
 @import './Views/ArtCreations/artCreations.css';
