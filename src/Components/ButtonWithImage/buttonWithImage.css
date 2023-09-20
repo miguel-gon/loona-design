@@ -1,15 +1,18 @@
 .buttonWithImage {
-	height: 10rem;
-	width: 10rem;
+	height: 15rem;
+	width: 30rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .buttonWithImage__linkContainer {
 	background-color: transparent;
 	padding: 1rem;
 	border: 0.1rem solid grey;
 	transition-duration: 0.25s;
+	backdrop-filter: blur(1px);
 }
 .buttonWithImage__linkContainer:hover {
 	background-color: grey;
@@ -21,5 +24,5 @@
 .buttonWithImage__linkString {
 	transition-duration: 0.25s;
 	text-decoration: none;
-	color: black;
+	color: grey;
 }

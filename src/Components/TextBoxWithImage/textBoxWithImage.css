@@ -3,8 +3,12 @@
 	justify-content: center;
 	align-items: center;
 	margin: 1rem;
+	height: 10rem;
 }
 
+.textBoxWithImage * {
+	border-radius: 0;
+}
 .textBoxWithImage-top {
 	flex-direction: column;
 }
@@ -18,15 +22,16 @@
 	flex-direction: row;
 }
 .textBoxWithImage__image {
+	height: 100%;
 	flex: 1;
 }
 .textBoxWithImage__headerContainer {
 	display: flex;
 	justify-content: center;
 	background-color: var(--green);
-	padding: 1.6rem;
-	margin: 0 1rem;
+	align-items: center;
 	flex: 1;
+	height: 100%;
 }
 .textBoxWithImage__header {
 	font-style: italic;

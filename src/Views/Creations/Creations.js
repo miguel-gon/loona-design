@@ -16,6 +16,7 @@ const Creations = () => {
 				style={{ textDecoration: 'none' }}>
 				<TextBoxWithImage
 					text={'Crochet'}
+					imgPath={require('../../assets/CrochetCreationImg.webp')}
 					imgPosition='left'
 				/>
 			</Link>
@@ -25,6 +26,7 @@ const Creations = () => {
 				style={{ textDecoration: 'none' }}>
 				<TextBoxWithImage
 					text={'Art'}
+					imgPath={require('../../assets/ArtCreationsImg.webp')}
 					imgPosition='right'
 				/>
 			</Link>
@@ -34,6 +36,7 @@ const Creations = () => {
 				style={{ textDecoration: 'none' }}>
 				<TextBoxWithImage
 					text={'Jewellry'}
+					imgPath={require('../../assets/JewerlyCreations.webp')}
 					imgPosition='left'
 				/>
 			</Link>

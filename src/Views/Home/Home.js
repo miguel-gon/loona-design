@@ -15,8 +15,9 @@ const Home = () => {
 					string={`I'm a 24 year old Puerto Rican crafter, crocheter, illustrator and designer. I'm completely self-taught and I really hope you get a kick out of my designs and my creations.`}
 					className='home__textBox'
 				/>
-				<TextBox
-					string={'Picture goes here'}
+				<img
+					src={require('../../assets/HomeBioPic.webp')}
+					alt=''
 					className='home__introImage'
 				/>
 			</div>

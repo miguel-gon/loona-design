@@ -11,12 +11,12 @@ const Patterns = () => {
 			</p>
 			<div className='patterns__buttonsContainer'>
 				<ButtonWithImage
-					imgPath={require('../../assets/loona-logo.png')}
+					imgPath={require('../../assets/FreePatternsBackgroundImg.webp')}
 					btnString={'Free Patterns'}
 					route={'/patterns/free-patterns'}
 				/>
 				<ButtonWithImage
-					imgPath={require('../../assets/loona-logo.png')}
+					imgPath={require('../../assets/PremiumPatternsBackgroundImg.webp')}
 					btnString={'Premium Patterns'}
 					route={'/patterns/premium-patterns'}
 				/>

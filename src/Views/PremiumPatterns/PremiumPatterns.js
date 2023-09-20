@@ -6,7 +6,7 @@ const PremiumPatterns = () => {
 		<div className='premiumPatterns'>
 			<HeaderBox header={'Premium Patterns'} />
 			<LinkWithImage
-				imgPath={'../../assets/loona-logo.png'}
+				imgPath={require('../../assets/TulipFieldsTop.webp')}
 				link={'https://ko-fi.com/s/190453e54c'}
 				text={'🌷TulipFieldsTop🌷'}
 			/>
