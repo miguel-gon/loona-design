@@ -31,3 +31,37 @@
 	color: white;
 	text-align: center;
 }
+
+.home__collageImg {
+	width: 100%;
+	height: 100%;
+}
+
+.home__imageCollage-top {
+	display: grid;
+	gap: 0.25rem;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.home__topCollumn1Img {
+	grid-column-end: 2;
+}
+
+.home__topCollumn2Img {
+	grid-row: 1 / 4;
+	grid-column: 2 / 3;
+}
+
+.home__imageCollage-bottom {
+	margin-top: 0.25rem;
+	display: flex;
+	gap: 0.25rem;
+}
+
+.home__bottomImgSmall {
+	flex: 1;
+}
+.home__bottomImgBig {
+	flex: 2;
+}

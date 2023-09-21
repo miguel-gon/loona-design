@@ -17,7 +17,7 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	opacity: 0;
-	width: fit-content;
+	width: max-content;
 	background-color: var(--light-green);
 	padding: 0 1rem;
 	border: 0.1rem solid white;
