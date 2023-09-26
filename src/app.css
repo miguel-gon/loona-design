@@ -1,9 +1,8 @@
 .app {
 	background-color: var(--background_color);
 	width: 50vw;
-	height: 100vh;
 	min-width: 30rem;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 	/* padding: 1rem; */
 	display: flex;
 	flex-direction: column;
