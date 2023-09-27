@@ -13,6 +13,7 @@ import PremiumPatterns from './Views/PremiumPatterns/PremiumPatterns';
 import FormFilled from './Views/FormFilled/FormFilled';
 import Accessibility from './Views/Accessibility/Accessibility';
 import CottonOrAcrylic from './Views/CottonOrAcrylic/CottonOrAcrylic';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 	return (
@@ -80,6 +81,7 @@ function App() {
 						/>
 					</Routes>
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	);
