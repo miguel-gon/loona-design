@@ -2,7 +2,7 @@ const Footer = () => {
 	return (
 		<div className='footer'>
 			<a
-				href='https://www.facebook.com/'
+				href='https://www.facebook.com/loonatelier'
 				className='footer__facebookLink'>
 				<svg className='footer__facebookLogo'>
 					<g
@@ -22,7 +22,7 @@ const Footer = () => {
 					</g>
 				</svg>
 			</a>
-			<a href='https://www.instagram.com/'>
+			<a href='https://www.instagram.com/loona.creates/'>
 				<svg className='footer__instagramLogo'>
 					<g>
 						<path
@@ -43,7 +43,7 @@ const Footer = () => {
 					</g>
 				</svg>
 			</a>
-			<a href='https://www.tiktok.com/'>
+			<a href='https://www.tiktok.com/@loona.creates'>
 				<svg
 					data-name='Layer 1'
 					id='Layer_1'
@@ -53,7 +53,7 @@ const Footer = () => {
 					<path d='M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM385.62,232.382c-27.184,0-53.634-8.822-74-23.75l-.162,101.5a92.457,92.457,0,1,1-80.178-91.721v49.845a43.657,43.657,0,1,0,31.288,41.876V109.333h51.275a71.773,71.773,0,0,0,71.774,71.773Z' />
 				</svg>
 			</a>
-			<a href='https://www.pinterest.com/'>
+			<a href='https://www.pinterest.com/loonacreates/'>
 				<svg
 					height='100%'
 					version='1.1'
