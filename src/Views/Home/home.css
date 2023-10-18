@@ -44,10 +44,6 @@
 	grid-template-rows: repeat(3, 1fr);
 }
 
-.home__topCollumn1Img {
-	grid-column-end: 2;
-}
-
 .home__topCollumn2Img {
 	grid-row: 1 / 4;
 	grid-column: 2 / 3;
@@ -55,13 +51,7 @@
 
 .home__imageCollage-bottom {
 	margin-top: 0.25rem;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
 	gap: 0.25rem;
-}
-
-.home__bottomImgSmall {
-	flex: 1;
-}
-.home__bottomImgBig {
-	flex: 2;
 }

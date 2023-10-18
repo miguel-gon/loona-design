@@ -36,17 +36,17 @@ const Home = () => {
 				<img
 					src={require('../../assets/CollagePic1.webp')}
 					alt=''
-					className='home__topCollumn1Img home__collageImg'
+					className='home__collageImg'
 				/>
 				<img
 					src={require('../../assets/CollagePic2.webp')}
 					alt=''
-					className='home__topCollumn1Img home__collageImg'
+					className='home__collageImg'
 				/>
 				<img
 					src={require('../../assets/CollagePic3.webp')}
 					alt=''
-					className='home__topCollumn1Img home__collageImg'
+					className='home__collageImg'
 				/>
 				<img
 					src={require('../../assets/CollagePic4.webp')}
