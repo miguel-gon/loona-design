@@ -17,3 +17,9 @@
 	width: 100%;
 	height: fit-content;
 }
+
+.footer__headerLogoContainer,
+.footer__headerLogo {
+	width: auto;
+	height: auto;
+}
