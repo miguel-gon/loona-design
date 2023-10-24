@@ -8,10 +8,15 @@
 	border-top: 0.1rem solid;
 }
 
-.footer * {
+.footer__logo {
+	width: 2rem;
+	height: 2rem;
+}
+
+/* .footer * {
 	height: 4rem;
 	width: 4rem;
-}
+} */
 
 .footer__header {
 	width: 100%;
